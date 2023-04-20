@@ -6,7 +6,7 @@ You need to have python3 to run this on Windows, Linux or MacOS
 
 # Linux
 
-## Install Python Requirements
+# Install Python Requirements
 sudo apt install python3-pip
 pip install -r requirements.txt
 MariaDB
