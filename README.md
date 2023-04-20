@@ -6,15 +6,17 @@ You need to have python3 to run this on Windows, Linux or MacOS
 
 # Linux
 
-# Install Python Requirements
-sudo apt install python3-pip
-pip install -r requirements.txt
-MariaDB
-Install MariaDB on linux with apt
-sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0xcbcb082a1bb943db
-sudo add-apt-repository 'deb http://ftp.osuosl.org/pub/mariadb/repo/5.5/ubuntuprecise main'
-sudo apt-get update
-sudo apt-get install mariadb-server
+## Install Python Requirements
+    sudo apt install python3-pip
+    pip install -r requirements.txt
+# MariaDB
+
+## Install MariaDB on linux with apt
+
+    sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0xcbcb082a1bb943db
+    sudo add-apt-repository 'deb http://ftp.osuosl.org/pub/mariadb/repo/5.5/ubuntuprecise main'
+    sudo apt-get update
+    sudo apt-get install mariadb-server
 Create user 'pm' and grant permissions
 Login to mysql as root
 
