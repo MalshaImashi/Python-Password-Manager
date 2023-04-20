@@ -17,7 +17,8 @@ You need to have python3 to run this on Windows, Linux or MacOS
     sudo add-apt-repository 'deb http://ftp.osuosl.org/pub/mariadb/repo/5.5/ubuntuprecise main'
     sudo apt-get update
     sudo apt-get install mariadb-server
-Create user 'pm' and grant permissions
+    
+### Create user 'pm' and grant permissions
 Login to mysql as root
 
 sudo mysql -u root
