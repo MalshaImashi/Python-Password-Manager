@@ -4,8 +4,9 @@ A simple local password manager written in Python and MariaDB. Uses pbkdf2 to de
 # Installation
 You need to have python3 to run this on Windows, Linux or MacOS
 
-Linux
-Install Python Requirements
+# Linux
+
+## Install Python Requirements
 sudo apt install python3-pip
 pip install -r requirements.txt
 MariaDB
